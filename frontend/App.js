@@ -32,7 +32,6 @@ export default function App() {
         onChangeText={handleInputChange}
       />
       <Button title="Submit" onPress={handleButtonPress} />
-      <Text>{text}</Text>
       <StatusBar style="auto" />
     </View>
   );

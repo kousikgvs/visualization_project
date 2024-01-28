@@ -21,6 +21,7 @@ app.post('/sendData', (req, res) => {
   // Example: Process the received data (assuming it's in JSON format)
   const receivedData = req.body;
   const responseData = { message: 'Data received successfully', receivedData };
+  console.log(responseData);
   res.status(200).json(responseData);
 });
 
